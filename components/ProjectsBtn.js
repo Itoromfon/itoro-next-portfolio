@@ -9,13 +9,15 @@ import { HiArrowRight } from 'react-icons/hi2';
 
 const ProjectsButton = () => {
     return ( 
-        <div className="mx-auto xl:mx-0">
+        <div className="mx-auto xl:mx-0 xl:-mt-16 z-30">
             <Link 
                 href={'/work'} 
                 className="
                     relative
                     w-[185px]
                     h-[185px]
+                    xl:w-[220px]
+                    xl:h-[220px]
                     flex
                     justify-center
                     items-center
@@ -24,13 +26,22 @@ const ProjectsButton = () => {
                     bg-center
                     bg-no-repeat
                     group
-                ">
+                "
+            >
                 <Image 
                     src={'/rounded-text.png'} 
                     width={141} 
                     height={148} 
                     alt="" 
-                    className="animate-spin-slow w-full h-full max-w-[141px] max-h-[148px]"
+                    className="
+                        animate-spin-slow
+                        w-full 
+                        h-full 
+                        max-w-[141px] 
+                        max-h-[148px]
+                        xl:max-w-[171px] 
+                        xl:max-h-[178px]
+                    "
                 />
                 <HiArrowRight 
                     className="
