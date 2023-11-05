@@ -10,13 +10,13 @@ const TopLeftImg = () => {
                 top-0 
                 mix-blend-color-dodge 
                 z-10
-                w-[140px] 
+                w-[200px] 
                 xl:w-[400px] 
                 opacity-25'>
             <Image 
-                src="/Top-Left.jpg" 
-                width={150} 
-                height={150}
+                src="/top-left-img.png" 
+                width={400} 
+                height={400}
                 alt=''
             />
         </div>

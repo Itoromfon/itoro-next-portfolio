@@ -16,13 +16,18 @@ import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
 
 const Home = () => {
-  return ( 
-    <div className='bg-primary/60 h-full'>
+  return (
+    <div 
+      className='
+        bg-primary/60 
+        h-full
+        '
+      >
       {/* text */}
       <div className='w-full h-full bg-gradient-to-r 
       from-primary/10 via-black/30 to-black/10'>
         <div className='text-center flex flex-col justify-center
-        pt-16 xl:pt-20 xl:text-left h-full container mx-auto'>
+        xl:pt-28 md:pt-10 pt-6 xl:text-left h-full container mx-auto'>
           {/*title */}
           <motion.h2 
             variants={fadeIn('down', 0.2)}
@@ -32,19 +37,22 @@ const Home = () => {
             className='
               h2 
               font-[sora]
-              text-[35px]
-              xl:text-[45px]
+              text-[24px]
+              xl:text-[33px]
+              leading-6
+              md:leading-6
+              xl:leading-10
             '
           >
-            Itoro Mfon Emmanuel<br />
+            Enthusiastic Problem Solver and<br />
             <span 
               className='
                 text-accent 
-                text-[28px]
-                md:text-[35px]
+                text-[22px] 
+                xl:text-[28px]
               '
               >
-              Software Engineer 
+              a Professional Software Engineer 
             </span>
           </motion.h2>
           {/* subtitle */}
@@ -60,19 +68,20 @@ const Home = () => {
               xl:max-w-xl 
               xl:mx-0 
               mb-10
-              text-xl
-              xl:text-2xl
+              text-[16px]
+              md:text-[19px]
+              xl:text-[21px]
+              leading-6
+              xl:leading-8
               xl:mr-40
               xl:mb-16
               font-[sora]
             '>
-            My name is Itoro Mfon Emmanuel, I am Software Engineer
-            with over four years of experience in building a responsive
-            and well structured web application using different programming
-            languages and frameworks My Skills includes: 
-            React.JS, Redux, Next.JS, HTML5,  CSS3, Javascript, ES6, Git, 
-            Styled-Component, Tailwind CSS, Bootstrap, Typescript, 
-            Nodejs, Express, Mongo DB.
+              My name is Itoro Mfon Emmanuel, I am a Professional Software Engineer
+              with over six years of experience in building responsive
+              and well structured web applications for various companies
+              and organizations.
+              .
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
@@ -98,7 +107,7 @@ const Home = () => {
         {/* bg img */}
         <div className='bg-none xl:bg-explosion xl:bg-cover xl:bg-right
         xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0
-        opacity-30'></div>
+        opacity-50'></div>
         {/* particles */}
         <ParticlesContainer />
         {/* avatar img */}
@@ -120,7 +129,7 @@ const Home = () => {
           <Avatar />
         </motion.div> */}
       </div>
-    </div>  
+    </div>
   );
 }
  

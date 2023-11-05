@@ -15,8 +15,20 @@ import Header from './Header';
 
 const Layout = ({children}) => {
     return ( 
-        <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable}
-        font-sora relative`}>
+        <div 
+            className={`
+                page 
+                bg-site 
+                text-white 
+                bg-cover
+                bg-no-repeat 
+                ${sora.variable}
+                font-sora 
+                relative
+                overflow-y-scroll
+                xl:overflow-hidden
+                `}
+            >
             <TopLeftImg />
             <Nav />
             <Header />

@@ -27,7 +27,7 @@ module.exports = {
         explosion: 'url("/bg-explosion.png")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
-        site: 'url("/purple-bg.jpg")',
+        site: 'url("/purple-plain.jpg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',

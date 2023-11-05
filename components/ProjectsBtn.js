@@ -9,13 +9,13 @@ import { HiArrowRight } from 'react-icons/hi2';
 
 const ProjectsButton = () => {
     return ( 
-        <div className="mx-auto xl:mx-0 xl:-mt-16 z-30">
+        <div className="mx-auto xl:mx-0 -mt-5 xl:-mt-16 z-30">
             <Link 
                 href={'/work'} 
                 className="
                     relative
-                    w-[185px]
-                    h-[185px]
+                    w-[160px]
+                    h-[160px]
                     xl:w-[220px]
                     xl:h-[220px]
                     flex
@@ -37,8 +37,8 @@ const ProjectsButton = () => {
                         animate-spin-slow
                         w-full 
                         h-full 
-                        max-w-[141px] 
-                        max-h-[148px]
+                        max-w-[125px] 
+                        max-h-[132px]
                         xl:max-w-[171px] 
                         xl:max-h-[178px]
                     "
