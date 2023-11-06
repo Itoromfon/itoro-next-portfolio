@@ -27,7 +27,7 @@ const Home = () => {
       <div className='w-full h-full bg-gradient-to-r 
       from-primary/10 via-black/30 to-black/10'>
         <div className='text-center flex flex-col justify-center
-        xl:pt-28 md:pt-10 pt-6 xl:text-left h-full container mx-auto'>
+        xl:pt-40 xl:text-left h-full container mx-auto'>
           {/*title */}
           <motion.h2 
             variants={fadeIn('down', 0.2)}
@@ -39,16 +39,13 @@ const Home = () => {
               font-[sora]
               text-[24px]
               xl:text-[33px]
-              leading-6
-              md:leading-6
-              xl:leading-10
             '
           >
             Enthusiastic Problem Solver and<br />
             <span 
               className='
                 text-accent 
-                text-[22px] 
+                text-[23px] 
                 xl:text-[28px]
               '
               >
@@ -68,11 +65,9 @@ const Home = () => {
               xl:max-w-xl 
               xl:mx-0 
               mb-10
-              text-[16px]
+              text-[17px]
               md:text-[19px]
               xl:text-[21px]
-              leading-6
-              xl:leading-8
               xl:mr-40
               xl:mb-16
               font-[sora]
@@ -81,7 +76,6 @@ const Home = () => {
               with over six years of experience in building responsive
               and well structured web applications for various companies
               and organizations.
-              .
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

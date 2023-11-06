@@ -147,6 +147,8 @@ const About = () => {
                     flex 
                     flex-col 
                     justify-center
+                    mb-4
+                    xl:mb-0
                 '
             >
                 <motion.h2 
@@ -180,9 +182,7 @@ const About = () => {
                         px-2
                         xl:px-0
                         font-[sora]
-                        text-[16px]
-                        leading-6
-                        xl:leading-8
+                        text-[17px]
                         md:text-[19px]
                         xl:text-[21px]
                     '
@@ -421,8 +421,6 @@ const About = () => {
                         xl:items-start
                         font-[sora] 
                         xl:text-lg
-                        leading-4
-                        xl:leading-none
                     '>
                     {aboutData[index].info.map((item, itemIndex) => {
                         return (
@@ -465,7 +463,7 @@ const About = () => {
                     })}
                 </div>
             </motion.div>
-        </div>
+        </div> 
     </div>;
 };
 
