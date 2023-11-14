@@ -164,6 +164,10 @@ const About = () => {
                         leading-6
                         md:leading-6
                         xl:leading-10
+                        mt-2
+                        xl:mt-0
+                        xs:mt-20
+                        sm:mt-10
                     '
                 >
                     My <span className='text-accent'>journey</span> as a <span className='text-[21px] xl:text-[28px]'>Software Engineer.</span>
@@ -212,8 +216,8 @@ const About = () => {
                             flex 
                             flex-1 
                             xl:gap-x-6
-                            '
-                        >
+                        '
+                    >
                         {/* experience */}
                         <div 
                             className='
@@ -371,8 +375,10 @@ const About = () => {
                     w-full 
                     xl:max-w-[48%]
                     h-[480px]
-                    '
-                >
+                    xs:mt-20
+                    sm:mt-10
+                '
+            >
                 <div 
                     className='
                         flex
@@ -392,7 +398,7 @@ const About = () => {
                                 }
                                     cursor-pointer
                                     capitalize
-                                    xl:text-lg
+                                    xl:text-lgz
                                     z-30
                                     relative
                                     after:w-8
