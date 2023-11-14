@@ -166,7 +166,7 @@ const About = () => {
                         xl:leading-10
                         mt-2
                         xl:mt-0
-                        sm:mt-40
+                        sm:mt-44
                         md:mt-6
                     '
                 >
@@ -375,7 +375,7 @@ const About = () => {
                     w-full 
                     xl:max-w-[48%]
                     h-[480px]
-                    sm:mt-40
+                    sm:mt-44
                     md:mt-6
                 '
             >
