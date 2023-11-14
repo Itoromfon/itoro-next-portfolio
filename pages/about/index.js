@@ -166,8 +166,9 @@ const About = () => {
                         xl:leading-10
                         mt-2
                         xl:mt-0
-                        xs:mt-28
+                        xs:mt-32
                         sm:mt-14
+                        md:mt-6
                     '
                 >
                     My <span className='text-accent'>journey</span> as a <span className='text-[21px] xl:text-[28px]'>Software Engineer.</span>
@@ -376,7 +377,8 @@ const About = () => {
                     xl:max-w-[48%]
                     h-[480px]
                     xs:mt-32
-                    sm:mt-16v
+                    sm:mt-16
+                    md:mt-6
                 '
             >
                 <div 
