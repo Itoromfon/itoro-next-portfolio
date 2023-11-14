@@ -37,7 +37,7 @@ export const aboutData = [
                     <SiNextdotjs key={5} />,
                     <SiTypescript key={6} />,
                     <SiTailwindcss key={7} />,
-                    <SiFramer key={8} />,     
+                    <SiFramer key={8} />,
                 ],
             },
             {
@@ -48,21 +48,21 @@ export const aboutData = [
     },
     {
         title: 'awards',
-        info: 
-        [
-            {
-                title: 'Aptech Award - Honoree',
-                stage: '2015 - 2016',
-            },
-            {
-                title: 'Exalt Applications Programmer of the year',
-                stage: '2021 - 2022',
-            },
-            {
-                title: 'Vendi Nigeria Humatarian Award',
-                stage: '2017 - 2018',
-            },
-        ],
+        info:
+            [
+                {
+                    title: 'Aptech Award - Honoree',
+                    stage: '2015 - 2016',
+                },
+                {
+                    title: 'Exalt Applications Programmer of the year',
+                    stage: '2021 - 2022',
+                },
+                {
+                    title: 'Vendi Nigeria Humatarian Award',
+                    stage: '2017 - 2018',
+                },
+            ],
     },
     {
         title: 'experience',
@@ -109,8 +109,8 @@ import Circles from '@/components/Circles';
 import Avatar from '@/components/Avatar';
 
 // framer motion
-import {motion} from 'framer-motion';
-import {fadeIn} from '../../variants';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../variants';
 
 // counter
 import CountUp from 'react-countup';
@@ -120,8 +120,8 @@ const About = () => {
     const [index, setIndex] = useState(0);
     console.log(index)
 
-    return  <div 
-                className='
+    return <div
+        className='
                     h-full
                     bg-primary/30
                     py-32
@@ -129,7 +129,7 @@ const About = () => {
                     xl:text-left
             '>
         <Circles />
-        <div 
+        <div
             className='
                 container 
                 mx-auto
@@ -140,8 +140,8 @@ const About = () => {
                 xl:flex-row
                 gap-x-6
                 '
-            >
-            <div 
+        >
+            <div
                 className='
                     flex-1 
                     flex 
@@ -151,7 +151,7 @@ const About = () => {
                     xl:mb-0
                 '
             >
-                <motion.h2 
+                <motion.h2
                     variants={fadeIn('right', 0.2)}
                     initial="hidden"
                     animate="show"
@@ -166,14 +166,13 @@ const About = () => {
                         xl:leading-10
                         mt-2
                         xl:mt-0
-                        xs:mt-32
-                        sm:mt-14
+                        sm:mt-40
                         md:mt-6
                     '
                 >
                     My <span className='text-accent'>journey</span> as a <span className='text-[21px] xl:text-[28px]'>Software Engineer.</span>
-                  </motion.h2>
-                  <motion.p 
+                </motion.h2>
+                <motion.p
                     variants={fadeIn('right', 0.4)}
                     initial="hidden"
                     animate="show"
@@ -191,14 +190,14 @@ const About = () => {
                         md:text-[19px]
                         xl:text-[21px]
                     '
-                   >
-                    I am a Professional Software Engineer with over 
-                    six years of experience in building responsive 
+                >
+                    I am a Professional Software Engineer with over
+                    six years of experience in building responsive
                     and well structure web applications for agencies,
-                    companies, startups and organizations. 
-                  </motion.p>
-                  {/* counters */}
-                  <motion.div 
+                    companies, startups and organizations.
+                </motion.p>
+                {/* counters */}
+                <motion.div
                     variants={fadeIn('right', 0.6)}
                     initial="hidden"
                     animate="show"
@@ -212,7 +211,7 @@ const About = () => {
                         xl:mx-0
                         mb-8
                     '>
-                    <div 
+                    <div
                         className='
                             flex 
                             flex-1 
@@ -220,7 +219,7 @@ const About = () => {
                         '
                     >
                         {/* experience */}
-                        <div 
+                        <div
                             className='
                                 relative
                                 flex-1
@@ -231,7 +230,7 @@ const About = () => {
                                 after:top-0
                                 after:right-0
                             '>
-                            <div 
+                            <div
                                 className='
                                     text-2xl
                                     xl:text-4xl
@@ -239,13 +238,13 @@ const About = () => {
                                     text-accent
                                 '
                             >
-                                <CountUp 
+                                <CountUp
                                     start={0}
                                     end={6}
                                     duration={5}
                                 /> +
                             </div>
-                            <div 
+                            <div
                                 className='
                                     text-xs
                                     uppercase
@@ -256,7 +255,7 @@ const About = () => {
                                 Years of experience
                             </div>
                         </div>
-                            {/* clients */}
+                        {/* clients */}
                         <div
                             className='
                                 relative
@@ -362,10 +361,10 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                  </motion.div>
+                </motion.div>
             </div>
             {/* info */}
-            <motion.div 
+            <motion.div
                 variants={fadeIn('left', 0.4)}
                 initial="hidden"
                 animate="show"
@@ -376,12 +375,11 @@ const About = () => {
                     w-full 
                     xl:max-w-[48%]
                     h-[480px]
-                    xs:mt-32
-                    sm:mt-16
+                    sm:mt-40
                     md:mt-6
                 '
             >
-                <div 
+                <div
                     className='
                         flex
                         gap-x-4
@@ -391,13 +389,12 @@ const About = () => {
                         mb-4
                         font-[sora]
                 '>
-                    {aboutData.map((item, itemIndex) => {  
+                    {aboutData.map((item, itemIndex) => {
                         return (
-                            <div 
+                            <div
                                 key={itemIndex}
-                                className={`${
-                                    index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
-                                }
+                                className={`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
+                                    }
                                     cursor-pointer
                                     capitalize
                                     xl:text-lgz
@@ -417,7 +414,7 @@ const About = () => {
                         )
                     })}
                 </div>
-                <div 
+                <div
                     className='
                         py-2
                         xl:py-6
@@ -432,7 +429,7 @@ const About = () => {
                     '>
                     {aboutData[index].info.map((item, itemIndex) => {
                         return (
-                            <div 
+                            <div
                                 key={itemIndex}
                                 className='
                                     flex-1
@@ -449,7 +446,7 @@ const About = () => {
                                 <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                                 <div className='hidden md:flex'>-</div>
                                 <div>{item.stage}</div>
-                                <div  className='flex xs:gap-x-6 sm:gap-x-6 gap-x-4'>
+                                <div className='flex xs:gap-x-6 sm:gap-x-6 gap-x-4'>
                                     {/* icon */}
                                     {item.icons?.map((icon, itemIndex) => {
                                         return (
@@ -465,13 +462,13 @@ const About = () => {
                                         )
                                     })}
                                 </div>
-                                
+
                             </div>
                         )
                     })}
                 </div>
             </motion.div>
-        </div> 
+        </div>
     </div>;
 };
 

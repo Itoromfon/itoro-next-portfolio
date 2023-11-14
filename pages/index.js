@@ -38,8 +38,9 @@ const Home = () => {
               h2 
               font-[sora]
               text-[24px]
-              xs:text-[18px]
-              xs:mt-24
+              sm:text-[18px]
+              sm:mt-24
+              xl:mt-0
               xl:text-[33px]
             '
           >
@@ -48,7 +49,7 @@ const Home = () => {
               className='
                 text-accent 
                 text-[23px] 
-                xs:text-[18px]
+                sm:text-[18px]
                 xl:text-[28px]
               '
               >
