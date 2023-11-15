@@ -417,7 +417,7 @@ const About = () => {
                         )
                     })}
                 </div>
-                <div
+                <iv
                     className='
                         py-2
                         xl:py-6
@@ -451,6 +451,7 @@ const About = () => {
                                 <div className='hidden md:flex'>-</div>
                                 <div>{item.stage}</div>
                                 <div className='flex xl:gap-x-4 gap-x-6'>
+                                
                                     {/* icon */}
                                     {item.icons?.map((icon, itemIndex) => {
                                         return (
@@ -472,7 +473,7 @@ const About = () => {
                             </div>
                         )
                     })}
-                </div>
+                </iv>
             </motion.div>
         </div>
     </div>;

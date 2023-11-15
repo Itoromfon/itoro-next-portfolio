@@ -38,6 +38,8 @@ const Header = () => {
                             className="
                                 text-[24px]
                                 md:[38px]
+                                mb-5
+                                xl:mb-0
                             "
                         >
                             <span 
