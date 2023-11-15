@@ -24,27 +24,22 @@ export const serviceData = [
     {
         icon: <RxCrop />,
         title: 'Branding',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        description: 'I provide branding services for companies.',
     },
     {
         icon: <RxPencil2 />,
         title: 'Design',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        description: 'I design products for different companies and startups',
     },
     {
         icon: <RxDesktop />,
         title: 'Development',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    },
-    {
-        icon: <RxReader />,
-        title: 'CopyWriting',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        description: 'I development both web and mobile applications.',
     },
     {
         icon: <RxRocket />,
         title: 'SEO',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        description: 'I provide SEO services for various companies and organizations.',
     },
 ]
 

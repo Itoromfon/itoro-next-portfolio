@@ -36,13 +36,11 @@ export const aboutData = [
                     <FaReact key={4} />,
                     <SiNextdotjs key={5} />,
                     <SiTypescript key={6} />,
-                    <SiTailwindcss key={7} />,
-                    <SiFramer key={8} />,
                 ],
             },
             {
                 title: 'Skills',
-                icons: [<SiMongodb key={1} />, <SiGit key={2} />, <SiNodedotjs key={3} />, <SiExpress key={4} />],
+                icons: [<SiMongodb key={1} />, <SiGit key={2} />, <SiNodedotjs key={3} />, <SiExpress key={4} />, <SiTailwindcss key={5} />, <SiFramer key={6} />],
             },
         ],
     },
@@ -375,8 +373,8 @@ const About = () => {
                     w-full 
                     xl:max-w-[48%]
                     h-[480px]
-                    sm:mt-16
-                    md:mt-14
+                    sm:mt-12
+                    md:mt-12
                 '
             >
                 <div
@@ -398,7 +396,7 @@ const About = () => {
                                     cursor-pointer
                                     capitalize
                                     xl:text-lg
-                                    text-[16px]p/
+                                    text-[16px]
                                     z-30
                                     relative
                                     after:w-8
@@ -417,7 +415,7 @@ const About = () => {
                         )
                     })}
                 </div>
-                <iv
+                <div
                     className='
                         py-2
                         xl:py-6
@@ -430,6 +428,8 @@ const About = () => {
                         font-[sora] 
                         xl:text-lg
                         text-[16px]
+                        xl:mb-0
+                        mb-36
                     '>
                     {aboutData[index].info.map((item, itemIndex) => {
                         return (
@@ -473,7 +473,7 @@ const About = () => {
                             </div>
                         )
                     })}
-                </iv>
+                </div>
             </motion.div>
         </div>
     </div>;

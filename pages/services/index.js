@@ -57,7 +57,7 @@ const Services = () => {
                                 text-[21px]
                                 xl:text-[37px]
                                 xl:mt-8
-                                mt-24
+                                mt-44
                             '
                         >
                         My services<span className='text-accent'>.</span>
@@ -79,8 +79,10 @@ const Services = () => {
                                 xl:text-[21px]
                                 '
                             >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        A eveniet dignissimos distintio tempore harum laundatium.
+                            I am a Professional Software Engineer with both Frontend
+                            and Backend experience in building a fast and interactive 
+                            user interface for both web and mobile application using 
+                            different libraries and frameworks.
                         </motion.p>
                     </div>
 

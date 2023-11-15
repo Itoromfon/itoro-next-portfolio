@@ -21,7 +21,8 @@ const Social = () => {
                 text-lg
             ">
             <Link 
-                href={''}
+                target="_blank"
+                href={'https://twitter.com/praiztech'}
                 className="
                     hover:text-accent
                     transition-all
@@ -33,7 +34,8 @@ const Social = () => {
                 <RiTwitterLine />
             </Link>
             <Link
-                href={''}
+                target="_blank"
+                href={'https://github.com/Itoromfon?tab=repositories'}
                 className="
                     hover:text-accent
                     transition-all
@@ -45,7 +47,8 @@ const Social = () => {
                 <RiGithubLine />
             </Link>
             <Link
-                href={''}
+                target="_blank"
+                href={'https://www.linkedin.com/in/itoro-mfon-emmanuel-3867991aa/'}
                 className="
                     hover:text-accent
                     transition-all
@@ -57,7 +60,8 @@ const Social = () => {
                 <RiLinkedinLine />
             </Link>
             <Link
-                href={''}
+                target="_blank"
+                href={'https://www.instagram.com/praiztech/'}
                 className="
                     hover:text-accent
                     transition-all
@@ -69,7 +73,8 @@ const Social = () => {
                 <RiInstagramLine />
             </Link>
             <Link
-                href={''}
+                target="_blank"
+                href={'https://web.facebook.com/praise.mfon.73/'}
                 className="
                     hover:text-accent
                     transition-all
