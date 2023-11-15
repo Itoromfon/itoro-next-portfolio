@@ -159,7 +159,7 @@ const About = () => {
                     className='
                         h2 
                         font-[sora]
-                        text-[20px]
+                        text-[18px]
                         xl:text-[37px]
                         leading-6
                         md:leading-6
@@ -170,7 +170,7 @@ const About = () => {
                         md:mt-6
                     '
                 >
-                    My <span className='text-accent'>journey</span> as a <span className='text-[21px] xl:text-[28px]'>Software Engineer.</span>
+                    My <span className='text-accent'>journey</span> as a <span className='text-[18px] xl:text-[28px]'>Software Engineer.</span>
                 </motion.h2>
                 <motion.p
                     variants={fadeIn('right', 0.4)}
@@ -398,7 +398,7 @@ const About = () => {
                                     cursor-pointer
                                     capitalize
                                     xl:text-lg
-                                    text-[16px]
+                                    text-[16px]p/
                                     z-30
                                     relative
                                     after:w-8
@@ -407,6 +407,8 @@ const About = () => {
                                     after:absolute
                                     after:-bottom-1
                                     after:left-0
+                                    sm:mx-2
+                                    xl:mx-0
                                 `}
                                 onClick={() => setIndex(itemIndex)}
                             >
@@ -457,6 +459,8 @@ const About = () => {
                                                 className='
                                                     xl:text-xl
                                                     text-white
+                                                    xl:mx-0
+                                                    mx-2
                                                 '
                                             >
                                                 {icon}

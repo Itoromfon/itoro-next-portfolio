@@ -18,7 +18,8 @@ const Social = () => {
             className="
                 flex
                 items-center
-                gap-x-5
+                xl:gap-x-5
+                gap-x-9
                 text-lg
             ">
             <Link 
