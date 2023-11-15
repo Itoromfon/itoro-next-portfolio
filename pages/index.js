@@ -69,7 +69,7 @@ const Home = () => {
               xl:max-w-xl 
               xl:mx-0 
               mb-10
-              text-[17px]
+              text-[16px]
               md:text-[19px]
               xl:text-[21px]
               xl:mr-40

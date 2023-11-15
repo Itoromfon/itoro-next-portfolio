@@ -159,7 +159,7 @@ const About = () => {
                     className='
                         h2 
                         font-[sora]
-                        text-[21px]
+                        text-[20px]
                         xl:text-[37px]
                         leading-6
                         md:leading-6
@@ -186,7 +186,7 @@ const About = () => {
                         px-2
                         xl:px-0
                         font-[sora]
-                        text-[17px]
+                        text-[16px]
                         md:text-[19px]
                         xl:text-[21px]
                     '
@@ -397,7 +397,8 @@ const About = () => {
                                     }
                                     cursor-pointer
                                     capitalize
-                                    xl:text-lgz
+                                    xl:text-lg
+                                    text-[16px]
                                     z-30
                                     relative
                                     after:w-8
@@ -426,6 +427,7 @@ const About = () => {
                         xl:items-start
                         font-[sora] 
                         xl:text-lg
+                        text-[16px]
                     '>
                     {aboutData[index].info.map((item, itemIndex) => {
                         return (
@@ -437,7 +439,7 @@ const About = () => {
                                     flex-col
                                     md:flex-row
                                     max-w-max
-                                    gap-x-2
+                                    gap-x-3
                                     items-center
                                     text-white/60
                                 '
@@ -446,7 +448,7 @@ const About = () => {
                                 <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                                 <div className='hidden md:flex'>-</div>
                                 <div>{item.stage}</div>
-                                <div className='flex xs:gap-x-6 sm:gap-x-6 gap-x-4'>
+                                <div className='flex xl:gap-x-4 gap-x-6'>
                                     {/* icon */}
                                     {item.icons?.map((icon, itemIndex) => {
                                         return (
