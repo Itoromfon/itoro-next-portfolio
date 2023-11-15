@@ -57,7 +57,7 @@ const Services = () => {
                                 text-[21px]
                                 xl:text-[37px]
                                 xl:mt-8
-                                mt-44
+                                mt-40 
                             '
                         >
                         My services<span className='text-accent'>.</span>

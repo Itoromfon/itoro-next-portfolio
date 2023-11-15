@@ -39,7 +39,7 @@ export const serviceData = [
     {
         icon: <RxRocket />,
         title: 'SEO',
-        description: 'I provide SEO services for various companies and organizations.',
+        description: 'I provide SEO services for various companies an-',
     },
 ]
 
