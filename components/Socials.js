@@ -18,8 +18,6 @@ const Social = () => {
             className="
                 flex
                 items-center
-                xl:gap-x-5
-                gap-x-9
                 text-lg
             ">
             <Link 
@@ -28,7 +26,9 @@ const Social = () => {
                     hover:text-accent
                     transition-all
                     duration-300
-                "
+                    mx-5
+                    xl:mx-3
+                 "
             >
                 <RiTwitterLine />
             </Link>
@@ -38,6 +38,8 @@ const Social = () => {
                     hover:text-accent
                     transition-all
                     duration-300
+                    mx-5
+                    xl:mx-3
                 "
             >
                 <RiGithubLine />
@@ -48,6 +50,8 @@ const Social = () => {
                     hover:text-accent
                     transition-all
                     duration-300
+                    mx-5
+                    xl:mx-37
                 "
             >
                 <RiLinkedinLine />
@@ -58,6 +62,8 @@ const Social = () => {
                     hover:text-accent
                     transition-all
                     duration-300
+                    mx-5
+                    xl:mx-3
                 "
             >
                 <RiInstagramLine />
@@ -68,6 +74,8 @@ const Social = () => {
                     hover:text-accent
                     transition-all
                     duration-300
+                    mx-5
+                    xl:mx-3
                 "
             >
                 <RiFacebookLine />
