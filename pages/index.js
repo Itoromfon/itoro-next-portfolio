@@ -39,7 +39,7 @@ const Home = () => {
               font-[sora]
               text-[24px]
               sm:text-[18px]
-              sm:mt-36
+              sm:mt-40
               xl:mt-0
               xl:text-[33px]
             '
@@ -68,7 +68,7 @@ const Home = () => {
               mx-auto 
               xl:max-w-xl 
               xl:mx-0 
-              mb-10
+              mb-6
               text-[16px]
               md:text-[19px]
               xl:text-[21px]

@@ -29,7 +29,7 @@ export const serviceData = [
     {
         icon: <RxPencil2 />,
         title: 'Design',
-        description: 'I design products for different companies and startups',
+        description: 'I design products for different companies and startups.',
     },
     {
         icon: <RxDesktop />,
@@ -39,7 +39,7 @@ export const serviceData = [
     {
         icon: <RxRocket />,
         title: 'SEO',
-        description: 'I provide SEO services for various companies an-',
+        description: 'I provide SEO services for various companies and agencies.',
     },
 ]
 
