@@ -91,7 +91,7 @@ const Home = () => {
               and organizations.
             </motion.p>
             {/* btn */}
-            {/* <div className='flex justify-center xl:hidden relative'>
+            <div className='flex justify-center xl:hidden relative'>
               <ProjectsBtn />
             </div>
             <motion.div
@@ -105,7 +105,7 @@ const Home = () => {
             '
             >
               <ProjectsBtn />
-            </motion.div> */}
+            </motion.div>
           </div>
         </div>
       </div>
