@@ -25,9 +25,9 @@ const Layout = ({children}) => {
                 ${sora.variable}
                 font-sora 
                 relative
-                overflow-ys-scroll
+                overflow-y-scroll
                 xl:overflow-hidden
-                `}
+            `}
             >
             <TopLeftImg />
             <Nav />

@@ -157,18 +157,32 @@ const About = () => {
                     className='
                         h2 
                         font-[sora]
-                        text-[18px]
-                        xl:text-[37px]
+                        text-[16px]
+                        sm:text-[18px]
+                        md:text-[20px]
+                        lg:text-[22px]
+                        xl:text-[28px]
                         leading-6
                         md:leading-6
                         xl:leading-10
-                        mt-2
-                        xl:mt-0
-                        sm:mt-16
-                        md:mt-14
+                        mt-3
+                        sm:mt-12
+                        md:mt-16
+                        lg:mt-16
+                        xl:mt-0 
                     '
                 >
-                    My <span className='text-accent'>journey</span> as a <span className='text-[18px] xl:text-[28px]'>Software Engineer.</span>
+                    My <span className='text-accent'>journey</span> as a <span 
+                        className='
+                            text-[16px]
+                            sm:text-[18px]
+                            md:text-[20px]
+                            lg:text-[22px]
+                            xl:text-[28px]
+                        '
+                    >
+                        Software Engineer.
+                    </span>
                 </motion.h2>
                 <motion.p
                     variants={fadeIn('right', 0.4)}
@@ -179,13 +193,15 @@ const About = () => {
                         max-w-[500px]
                         mx-auto
                         xl:mx-0
-                        mb-4
+                        mb-3
                         xl:mb-12
                         px-2
                         xl:px-0
                         font-[sora]
                         text-[16px]
+                        sm:text-[16px]
                         md:text-[19px]
+                        lg:text-[20px]
                         xl:text-[21px]
                     '
                 >
@@ -373,8 +389,6 @@ const About = () => {
                     w-full 
                     xl:max-w-[48%]
                     h-[480px]
-                    sm:mt-12
-                    md:mt-12
                 '
             >
                 <div

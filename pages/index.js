@@ -42,8 +42,8 @@ const Home = () => {
               md:text-[20px]
               lg:text-[22px]
               xl:text-[28px]
-              mt-44
-              sm:mt-40
+              mt-36
+              sm:mt-36
               md:mt-28
               lg:mt-16
               xl:mt-0 
@@ -91,7 +91,7 @@ const Home = () => {
               and organizations.
             </motion.p>
             {/* btn */}
-            <div className='flex justify-center xl:hidden relative'>
+            {/* <div className='flex justify-center xl:hidden relative'>
               <ProjectsBtn />
             </div>
             <motion.div
@@ -105,7 +105,7 @@ const Home = () => {
             '
             >
               <ProjectsBtn />
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>
@@ -117,24 +117,6 @@ const Home = () => {
         opacity-50'></div>
         {/* particles */}
         <ParticlesContainer />
-        {/* avatar img */}
-        {/* <motion.div 
-          variants={fadeIn('up', 0.5)}
-          initial='hidden'
-          animate='show'
-          exit='hidden'
-          transition={{ duration: 1, ease: 'easeInOut' }}
-          className='
-            w-full
-            h-full
-            max-w-[250px]
-            max-h-[250px]
-            xl:mt-[12%]
-            absolute
-            xl:right-[10%]
-          '>
-          <Avatar />
-        </motion.div> */}
       </div>
     </div>
   );
