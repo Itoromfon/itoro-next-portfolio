@@ -128,7 +128,6 @@ const WorkSlider = () => {
                                                     opacity-70
                                                 '
                                             />
-                                        </Link>
                                         {/* overlay gradient */}
                                         <div 
                                             className='
@@ -138,6 +137,26 @@ const WorkSlider = () => {
                                                 group-hover:opacity-80 transition-all duration-700
                                             '
                                         ></div>
+                                        {/* title */}
+                                        <div 
+                                            className='
+                                                absolute 
+                                                bottom-0 
+                                                translate-y-full
+                                                left-20
+                                                group-hover:-translate-y-10
+                                            '
+                                        >
+                                            <div>
+                                                {/* title part 1 */}
+                                                <div>title part 1</div>
+                                                {/* title part 2 */}
+                                                <div>title part 2</div>
+                                                {/* icon */}
+                                                <div>icon</div>
+                                            </div>
+                                        </div>
+                                        </Link>
                                     </div>
                                 </div>
                             )

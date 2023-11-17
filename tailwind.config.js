@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */6
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -15,7 +15,11 @@ module.exports = {
       sm: '320px',
       md: '768px',
       lg: '960px',
-      xl: '1200px',
+      xl: '1200px' 
+      // 'sm': { 'max': '480px' },
+      // 'md': { 'min': '481px', 'max': '768px' },
+      // 'lg': { 'min': '769px', 'max': '960px' },
+      // 'xl': { 'min': '961px', 'max': '1535px' },
     },
     extend: {
       colors: {
@@ -45,3 +49,95 @@ module.exports = {
   },
   plugins: [require('tailwind-scrollbar')],
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

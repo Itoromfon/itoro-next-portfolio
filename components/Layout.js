@@ -25,7 +25,7 @@ const Layout = ({children}) => {
                 ${sora.variable}
                 font-sora 
                 relative
-                overflow-y-scroll
+                overflow-ys-scroll
                 xl:overflow-hidden
                 `}
             >

@@ -25,6 +25,7 @@ const Header = () => {
                     className="
                         flex 
                         flex-col
+                        xl:flex-row
                         lg:flex-row
                         justify-between
                         items-center
@@ -36,17 +37,18 @@ const Header = () => {
                     <Link href={'/'}>  
                         <h2 
                             className="
-                                text-[24px]
-                                md:[38px]
-                                mb-5
-                                xl:mb-0
+                                text-[16px]
+                                sm:text-[22px]
+                                md:text-[24px]
+                                lg:text-[25px]
+                                xl:text-[26px]
                             "
                         >
                             <span 
                             className="
                                 font-bold
                             ">
-                                    Itoro </span>Mfon
+                                Itoro </span>Mfon
                         </h2>
                     </Link>
                     {/* socials */}

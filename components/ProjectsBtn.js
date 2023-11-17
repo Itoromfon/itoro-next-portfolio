@@ -14,8 +14,14 @@ const ProjectsButton = () => {
                 href={'/work'} 
                 className="
                     relative
-                    w-[160px]
-                    h-[160px]
+                    w-[130px]
+                    h-[130px]
+                    sm:w-[150px]
+                    sm:h-[150px]
+                    md:w-[190px]
+                    md:h-[190px]
+                    lg:w-[210px]
+                    lg:h-[210px]
                     xl:w-[220px]
                     xl:h-[220px]
                     flex
@@ -37,8 +43,14 @@ const ProjectsButton = () => {
                         animate-spin-slow
                         w-full 
                         h-full 
-                        max-w-[125px] 
-                        max-h-[132px]
+                        max-w-[100px] 
+                        max-h-[110px]
+                        sm:max-w-[116px] 
+                        sm:max-h-[123px]
+                        md:max-w-[151px] 
+                        md:max-h-[158px]
+                        lg:max-w-[161px] 
+                        lg:max-h-[168px]
                         xl:max-w-[171px] 
                         xl:max-h-[178px]
                     "
