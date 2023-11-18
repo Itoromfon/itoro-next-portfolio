@@ -54,13 +54,19 @@ const Work = () => {
                             className='
                                 h2 
                                 font-[sora]
-                                text-[21px]
-                                xl:text-[37px]
-                                xl:mt-8
-                                mt-44 
+                                text-[16px]
+                                sm:text-[18px]
+                                md:text-[19px]
+                                lg:text-[22px]
+                                xl:text-[28px]
+                                mt-64 
+                                sm:mt-96
+                                md:mt-96
+                                lg:mt-80
+                                xl:mt-12
                             '
                         >
-                            My work<span className='text-accent'>.</span>
+                            My Work<span className='text-accent'>.</span>
                         </motion.h2>
                         <motion.p
                             variants={fadeIn('up', 0.4)}

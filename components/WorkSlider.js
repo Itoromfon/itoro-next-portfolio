@@ -90,6 +90,8 @@ const WorkSlider = () => {
                             grid-rows-1
                             gap-4
                             cursor-pointer
+                            xl:mt-8
+                            mt-0
                         '>
                         {item.images.map((image, index) => {
                             return (
@@ -112,6 +114,7 @@ const WorkSlider = () => {
                                             justify-center
                                             relative
                                             overflow-hidden
+                                            group
                                         '
                                     >
                                         {/* image */}
@@ -143,17 +146,53 @@ const WorkSlider = () => {
                                                 absolute 
                                                 bottom-0 
                                                 translate-y-full
-                                                left-20
+                                                xl:left-30
+                                                lg:left-20
+                                                md:left-10
+                                                sm:left-5
+                                                left-5
                                                 group-hover:-translate-y-10
+                                                group-hover:xl:-translate-y-20
+                                                transition-all
+                                                duration-300
                                             '
                                         >
-                                            <div>
+                                            <div 
+                                                className='
+                                                    flex 
+                                                    items-center 
+                                                    gap-x-2
+                                                    text-[13px]
+                                                    tracking-[0.2em]
+                                                '
+                                            >
                                                 {/* title part 1 */}
-                                                <div>title part 1</div>
+                                                <div className='delay-100'>LIVE</div>
                                                 {/* title part 2 */}
-                                                <div>title part 2</div>
+                                                <div 
+                                                    className='
+                                                        translate-y-[500%]
+                                                        group-hover:translate-y-0
+                                                        transition-all
+                                                        duration-300
+                                                        delay-150
+                                                    '
+                                                >
+                                                    PROJECT
+                                                </div>
                                                 {/* icon */}
-                                                <div>icon</div>
+                                                <div 
+                                                    className='
+                                                        text-xl
+                                                        translate-y-[500%]
+                                                        group-hover:translate-y-0
+                                                        transition-all
+                                                        duration-300
+                                                        delay-200
+                                                    '
+                                                >
+                                                    <BsArrowRight />
+                                                </div>
                                             </div>
                                         </div>
                                         </Link>

@@ -166,7 +166,7 @@ const About = () => {
                         md:leading-6
                         xl:leading-10
                         mt-3
-                        sm:mt-12
+                        sm:mt-16
                         md:mt-16
                         lg:mt-16
                         xl:mt-0 

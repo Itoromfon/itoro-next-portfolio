@@ -7,7 +7,6 @@ import Link from 'next/link';
 // components
 import ParticlesContainer from '@/components/ParticlesContainer';
 import ProjectsBtn from '@/components/ProjectsBtn';
-import Avatar from '@/components/Avatar';
 
 // framer motion
 import { motion } from 'framer-motion';
@@ -43,7 +42,7 @@ const Home = () => {
               lg:text-[22px]
               xl:text-[28px]
               mt-36
-              sm:mt-36
+              sm:mt-28
               md:mt-28
               lg:mt-16
               xl:mt-0 

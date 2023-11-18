@@ -54,14 +54,19 @@ const Services = () => {
                             className='
                                 h2 
                                 font-[sora]
-                                text-[21px]
-                                xl:text-[37px]
-                                xl:mt-8
-                                lg:mt-8
-                                mt-48
+                                text-[16px]
+                                sm:text-[18px]
+                                md:text-[20px]
+                                lg:text-[22px]
+                                xl:text-[28px]
+                                mt-56
+                                sm:mt-60
+                                md:mt-28
+                                lg:mt-16
+                                xl:mt-0 
                             '
                         >
-                        My services<span className='text-accent'>.</span>
+                        My Services<span className='text-accent'>.</span>
                         </motion.h2>
                         <motion.p 
                             variants={fadeIn('up', 0.4)}
