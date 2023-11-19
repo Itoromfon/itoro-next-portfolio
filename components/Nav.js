@@ -14,11 +14,11 @@ export const navData = [
     { name: 'about', path: '/about', icon: <HiUser /> },
     { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
     { name: 'work', path: '/work', icon: <HiViewColumns /> },
-    // {
-    //     name: 'contact',
-    //     path: '/contact',
-    //     icon: <HiEnvelope />,
-    // },
+    {
+        name: 'Resume',
+        path: 'https://drive.google.com/file/d/1UYy7WIn2rCM7wF7YjOcuwciJdzC9josR/view?usp=sharing6uy7',
+        icon: <HiEnvelope />,
+    },
 ];
 
 // Next Link
